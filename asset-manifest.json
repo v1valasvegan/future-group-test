@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github.io/future-group-test/static/css/main.f350bf46.chunk.css",
+    "main.js": "/github.io/future-group-test/static/js/main.08362a54.chunk.js",
+    "main.js.map": "/github.io/future-group-test/static/js/main.08362a54.chunk.js.map",
+    "runtime-main.js": "/github.io/future-group-test/static/js/runtime-main.c3c28e78.js",
+    "runtime-main.js.map": "/github.io/future-group-test/static/js/runtime-main.c3c28e78.js.map",
+    "static/js/2.48b349ac.chunk.js": "/github.io/future-group-test/static/js/2.48b349ac.chunk.js",
+    "static/js/2.48b349ac.chunk.js.map": "/github.io/future-group-test/static/js/2.48b349ac.chunk.js.map",
+    "index.html": "/github.io/future-group-test/index.html",
+    "precache-manifest.1767a835f8e904985823e59dfe38dcd1.js": "/github.io/future-group-test/precache-manifest.1767a835f8e904985823e59dfe38dcd1.js",
+    "service-worker.js": "/github.io/future-group-test/service-worker.js",
+    "static/css/main.f350bf46.chunk.css.map": "/github.io/future-group-test/static/css/main.f350bf46.chunk.css.map",
+    "static/js/2.48b349ac.chunk.js.LICENSE": "/github.io/future-group-test/static/js/2.48b349ac.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3c28e78.js",
+    "static/js/2.48b349ac.chunk.js",
+    "static/css/main.f350bf46.chunk.css",
+    "static/js/main.08362a54.chunk.js"
+  ]
+}
