@@ -1,0 +1,39 @@
+.loader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+  border-radius: 50%;
+  animation-name: dots;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.first {
+  background-color: limegreen;
+}
+
+.second {
+  background-color: lime;
+  animation-delay: 0.2s;
+}
+
+.third {
+  background-color: limegreen;
+  animation-delay: 0.4s;
+}
+
+@keyframes dots {
+  50% {
+    opacity: 0;
+    transform: scale(0.7) translateY(10px);
+  }
+}

@@ -1,38 +1,115 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto; 
+  max-width: 1280px;
+  font-size: 15px;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+.button-initial {
+  padding: 10px 20px;
+  border: 1px solid limegreen;
+  border-radius: 5px;
+  margin-left: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttons {
+  display: flex;
+  justify-content: center;
 }
+
+.input, button {
+  min-height: 25px;
+  margin: 0 0 5px 10px;
+  border: 1px solid limegreen;
+  border-radius: 5px;
+  font-size: inherit;
+}
+
+.button {
+  padding: 5px 10px;;
+}
+
+.table-buttons {
+  margin: 10px auto 20px auto;
+}
+
+.previous, .next {
+  border-color: lime;
+  background-color: inherit;
+}
+
+.table {
+  font-size: 18px;
+  border: 2px solid limegreen;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-heading {
+  padding: 10px 0 10px 0; 
+  background-color: #f3f3f3;
+}
+
+.table-heading__item {
+  text-align: left;
+  position: relative;
+  padding: 10px 25px;
+}
+
+.table-heading__item::before {
+  position: absolute;
+  left: 10px;;
+  top: 15px;
+  content: '';
+}
+
+.sort-by::before {
+  width: 10px;
+  height: 10px;
+  background-color: lime;
+}
+
+.asc::before {
+  clip-path: polygon(50% 0, 100% 100%, 0 100%, 50% 0);
+}
+
+.desc::before {
+  clip-path: polygon(0 0, 100% 0, 50% 100%, 0 0);
+}
+
+td {
+  padding: 5px 5px 5px 20px;;
+}
+
+.info {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 150px;
+  right: 25px;
+  min-width: 400px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.info__item {
+  margin-top: 10px;
+}
+
+.fail {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.error-message {
+  margin-bottom: 30px;
+}
+
